@@ -1,11 +1,13 @@
+import './index.css';
+
+import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // 오래된 코드, 또는 버려진 코드를 사용하면 경고
   <React.StrictMode>
     <App />
   </React.StrictMode>
